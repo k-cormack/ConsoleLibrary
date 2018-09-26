@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 using ConsoleTheater.Interfaces;
 
 namespace ConsoleTheater.Models
@@ -19,7 +22,7 @@ namespace ConsoleTheater.Models
 
     public void PrintName()
     {
-      System.Console.WriteLine($"Ticket for {Movie} at {Time}");
+      Console.WriteLine($"Ticket for {Movie} at {Time}");
     }
   }
 }
